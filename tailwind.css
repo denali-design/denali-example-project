@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* include denali theme */
+@import 'denali-css-theme/theme.css';
+
+/* include your projects custom styles */
+@import "./components/body.css";
+
+@import "./components/alert.css";
+
+@import 'tailwindcss/utilities';
